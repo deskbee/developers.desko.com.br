@@ -6,6 +6,8 @@
 
 Acesse o Painel do Desko (Usuário Admin ou Master) e Configure um WebHook
 
+![](<.gitbook/assets/Peek 11-10-2021 20-43.gif>)
+
 ### Re-Tentativas
 
 Em caso de falha, por exempol: o cliente retornar um Http Status diferente de **200**, tentamos mais 5x, para não sobrecarregar a fila e não sobrecarregar o cliente, vamos esperar algum tempo entre cada tentativa.
