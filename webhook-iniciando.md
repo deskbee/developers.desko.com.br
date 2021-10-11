@@ -1,4 +1,4 @@
-# 🪝 Configurando
+# Configurando
 
 {% hint style="info" %}
 É necessário que a url do cliente esteja em **https**, caso contrário irá falhar a solicitação

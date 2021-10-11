@@ -35,7 +35,7 @@
 
 ***
 
-* [🪝 Configurando](webhook-iniciando.md)
+* [Configurando](webhook-iniciando.md)
 * [Page 1](page-1.md)
 
 ## Integrações
