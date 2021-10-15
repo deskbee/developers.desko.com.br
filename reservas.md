@@ -19,6 +19,21 @@ Bearer <token>
 
 {% swagger-response status="200" description="" %}
 ```bash
+```
+{% endswagger-response %}
+{% endswagger %}
+
+{% tabs %}
+{% tab title="Request" %}
+```bash
+curl --location --request GET 'https://api.desko.com.br/v1.1/bookings/77012570-4a47-4827-8d17-f5a1ddec06c1' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer <token>'
+```
+{% endtab %}
+
+{% tab title="Response" %}
+```json
 {
     "data": {
         "uuid": "85dfd756-70ac-41b5-b66b-dab31137ecc1",
@@ -81,16 +96,6 @@ Bearer <token>
         "updated_at": "2021-09-27T16:12:49-03:00"
     }
 }
-```
-{% endswagger-response %}
-{% endswagger %}
-
-{% tabs %}
-{% tab title="Example Request" %}
-```bash
-curl --location --request GET 'https://api.desko.com.br/v1.1/bookings/77012570-4a47-4827-8d17-f5a1ddec06c1' \
---header 'Content-Type: application/json' \
---header 'Authorization: Bearer <token>'
 ```
 {% endtab %}
 {% endtabs %}
