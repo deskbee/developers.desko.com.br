@@ -9,11 +9,11 @@ description: Consulta de Reservas
 
 {% endswagger-description %}
 
-{% swagger-parameter in="path" name="{{booking_uuid}}" type="string" %}
+{% swagger-parameter in="path" name="{{booking_uuid}}" type="string" required="true" %}
 UUID da Reserva
 {% endswagger-parameter %}
 
-{% swagger-parameter in="header" name="Authorization" type="string" %}
+{% swagger-parameter in="header" name="Authorization" type="string" required="true" %}
 Bearer <token>
 {% endswagger-parameter %}
 
