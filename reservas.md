@@ -17,8 +17,70 @@ UUID da Reserva
 Bearer <token>
 {% endswagger-parameter %}
 
-{% swagger-response status="200" description="" %}
-```bash
+{% swagger-response status="200: OK" description="" %}
+```javascript
+{
+    "data": {
+        "uuid": "85dfd756-70ac-41b5-b66b-dab31137ecc1",
+        "start_date": "2021-09-27T18:00:00-03:00",
+        "end_date": "2021-09-27T19:00:00-03:00",
+        "place": {
+            "uuid": "75e44930-9dce-4b06-8534-2e5810c7f1e9",
+            "qrcode": "EST.AGUIAS.KMS.1/001",
+            "type": "workspace",
+            "name": "EST 1.001",
+            "name_display": "EST 1.001",
+            "capacity": 1,
+            "area": {
+                "address": "Rua Aguias, Porto Alegre",
+                "floor": {
+                    "uuid": "d1935978-f2f5-4dee-8724-c35dfe098235",
+                    "name": "1º Andar",
+                    "is_active": true
+                },
+                "building": {
+                    "uuid": "f6ff259a-4cdb-4e44-ae37-c7b58a4f3daa",
+                    "name": "Kamisama",
+                    "is_active": true
+                },
+                "site": {
+                    "uuid": "fa062508-472d-4612-842d-a8759bba510a",
+                    "name": "Shinden",
+                    "is_active": true
+                }
+            },
+            "sector": {
+                "uuid": "dacf8263-6f90-4419-a4b5-73140915ffda",
+                "name": "Developer"
+            },
+            "external_resource_id": "",
+            "is_mapped": true,
+            "created_at": "2021-05-12T21:26:42-03:00",
+            "updated_at": "2021-08-29T17:54:34-03:00"
+        },
+        "state": "reserved",
+        "person": {
+            "uuid": "ffefde9d-5005-4908-9400-1ff46cb773a6",
+            "name": "Son Gohan",
+            "name_display": "Son Gohan",
+            "email": "gohan@pipedev.com.br",
+            "enrollment": "",
+            "created_at": "2021-05-12T21:07:25-03:00",
+            "updated_at": "2021-05-12T21:07:25-03:00"
+        },
+        "owner": {
+            "uuid": "ffefde9d-5005-4908-9400-1ff46cb773a6",
+            "name": "Son Gohan",
+            "name_display": "Son Gohan",
+            "email": "gohan@pipedev.com.br",
+            "enrollment": "",
+            "created_at": "2021-05-12T21:07:25-03:00",
+            "updated_at": "2021-05-12T21:07:25-03:00"
+        },
+        "created_at": "2021-09-27T16:12:49-03:00",
+        "updated_at": "2021-09-27T16:12:49-03:00"
+    }
+}
 ```
 {% endswagger-response %}
 {% endswagger %}
@@ -32,7 +94,7 @@ curl --location --request GET 'https://api.desko.com.br/v1.1/bookings/77012570-4
 ```
 {% endtab %}
 
-{% tab title="Response" %}
+{% tab title="Response: 200 OK" %}
 ```json
 {
     "data": {
