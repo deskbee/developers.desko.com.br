@@ -1,6 +1,0 @@
----
-description: ... em construção ...
----
-
-# Google
-

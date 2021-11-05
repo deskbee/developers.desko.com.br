@@ -45,6 +45,3 @@
   * [Azure AD Microsoft](single-sign-on-sso/azure-ad.md)
   * [Google Suite](single-sign-on-sso/google-suite.md)
 * [Slack](slack.md)
-* [Calendários](calendarios/README.md)
-  * [Google](calendarios/google.md)
-  * [Microsoft](calendarios/microsoft.md)
