@@ -1,8 +1,8 @@
 # Criando Token OAuth2
 
-Para Autenticar na API do Desko, utilizamos o fluxo OAuth client_credential
+Para Autenticar na API do Desko, utilizamos o fluxo OAuth client\_credential
 
-O fluxo de credenciais do cliente é um fluxo de servidor para servidor. Não há autenticação de usuário envolvida no processo. 
+O fluxo de credenciais do cliente é um fluxo de servidor para servidor. Não há autenticação de usuário envolvida no processo.&#x20;
 
 Este fluxo é útil para sistemas que precisam executar operações de API quando nenhum usuário está presente. Podem ser operações noturnas ou outras que envolvam o contato de entre duas aplicações / sistemas
 
@@ -12,7 +12,7 @@ O Fluxo consiste em:
 2. O servidor OAuth emite o Token de Acesso
 3. Utilizar este Token de Acesso para o consumo da API
 
-####  <a href="benefit" id="benefit"></a>
+#### &#x20;<a href="#benefit" id="benefit"></a>
 
 {% swagger baseUrl="https://api.desko.com.br" path="/v1.1/oauth/token" method="post" summary="Autenticar (Client API)" %}
 {% swagger-description %}
@@ -62,10 +62,10 @@ Escopos que o cliente está solicitando acesso
 curl --location --request POST 'https://api.desko.com.br/v1.1/oauth/token' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-	"grant_type" : "client_credentials",
-	"client_id" : "943e47a1.....afc40e491",
-	"client_secret" : "7gWtVs9P.....PEyjRVqz05QdyB",
-    "scope" : "organization.show organization.upsert integration.checkin booking.show organization.remove"
+   "grant_type" : "client_credentials",
+   "client_id" : "943e47a1.....afc40e491",
+   "client_secret" : "7gWtVs9P.....PEyjRVqz05QdyB",
+   "scope" : "organization.show organization.upsert integration.checkin booking.show organization.remove"
 }'
 ```
 {% endtab %}
