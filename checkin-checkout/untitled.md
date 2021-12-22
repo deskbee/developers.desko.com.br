@@ -52,9 +52,9 @@ status entrada / saida
 
 
 
-**1 **
+**1**
 
-\= entrada | 
+ \= entrada | 
 
 **0**
 

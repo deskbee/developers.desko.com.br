@@ -18,12 +18,12 @@
 ***
 
 * [Organization](organization/README.md)
-  * [Squads (Grupos)](organization/untitled-1.md)
+  * [Squads (Grupos)](organization/squads.md)
   * [Users](organization/usuarios.md)
 * [Bookings](reservas.md)
 * [Buildings](buildings.md)
 
-## Automações <a href="automacao" id="automacao"></a>
+## Automações <a href="#automacao" id="automacao"></a>
 
 ***
 
