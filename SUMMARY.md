@@ -45,4 +45,5 @@
   * [Azure AD Microsoft](single-sign-on-sso/azure-ad.md)
   * [Google Suite](single-sign-on-sso/google-suite.md)
   * [Okta Identity Platform](single-sign-on-sso/okta-identity-platform.md)
+  * [Microsoft AD FS](single-sign-on-sso/microsoft-ad-fs.md)
 * [Slack](slack.md)
