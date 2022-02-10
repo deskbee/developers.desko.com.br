@@ -18,7 +18,7 @@ Before start, it is necessary to get the _Desko’s_ URLs that is going to be in
 
 3\.  Turn on **SSO SAML 2.0 authentication**
 
-![](../.gitbook/assets/sso13.png)
+![](../.gitbook/assets/sso8.png)
 
 4\.  Go to the bottom of the page at **SAML Basic setup** section and keep it open, you will need these 3 URLs **Identifier (Entity ID), ACS response URL** and **Logout URL** in the next steps
 
