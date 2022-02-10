@@ -68,7 +68,7 @@ Before start, it is necessary to get the _Desko’s_ URLs that is going to be in
 
 **Note: Once a user is authenticated by SSO, it is mandatory to have claim rules to specify data attributes and its formats such as Name and email. These data attributes will be sent to **_**Desko**_** in response to SAML 2.0. As **_**Desko**_** requires a name identification element that contains the user's email address, in the next section we will create 2 configuration rules.**
 
-![](../.gitbook/assets/14)
+![](../.gitbook/assets/adfs10.png)
 
 ### Creating Claim Rules Policies <a href="#_toc92963876" id="_toc92963876"></a>
 
