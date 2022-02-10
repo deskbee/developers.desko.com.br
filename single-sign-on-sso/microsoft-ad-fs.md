@@ -50,7 +50,7 @@ Before start, it is necessary to get the _Desko’s_ URLs that is going to be in
 
 10\.  Choose **Enable support for the SAML 2.0 WebSSO protocol** option, insert the ACS response URL from _Desko_ panel opened in **item 4** as shown below and click on **Next**
 
-![](../.gitbook/assets/10)
+![](../.gitbook/assets/adfs6.png)
 
 11\.  In the **Configure Identifiers** step, insert the **Identifier Entity ID** URL from _Desko_ panel as shown below, click on **Add** and then on **Next**
 
