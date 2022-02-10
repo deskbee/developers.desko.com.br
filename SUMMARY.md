@@ -42,8 +42,8 @@
 ***
 
 * [SSO (SAML 2.0)](single-sign-on-sso/README.md)
-  * [Azure AD Microsoft](single-sign-on-sso/azure-ad.md)
-  * [Google Suite](single-sign-on-sso/google-suite.md)
+  * [Microsoft Azure AD](single-sign-on-sso/azure-ad.md)
+  * [Google Workspace (G-Suite)](single-sign-on-sso/google-suite.md)
   * [Okta Identity Platform](single-sign-on-sso/okta-identity-platform.md)
   * [Microsoft AD FS](single-sign-on-sso/microsoft-ad-fs.md)
 * [Slack](slack.md)
