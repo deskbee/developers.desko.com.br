@@ -6,7 +6,7 @@ description: >-
 
 # Google Workspace (G-Suite)
 
-1.Acesse Admin Console [https://admin.google.com](https://admin.google.com/ac/home?hl=en-US)
+1. Acesse Admin Console [https://admin.google.com](https://admin.google.com/ac/home?hl=en-US)
 
 2\. Esta documentação foi escrita utilizando Google Admin com a linguagem Inglês, caso ache necessário e sua linguagem esteja configurada diferente no Google Admin, altere a linguagem do seu Google para o inglês, para facilitar a compreensão dos passos.
 
@@ -154,12 +154,13 @@ Urls do Painel Desko que correspondem as urls do Google\
 
 ![](<../.gitbook/assets/21 (1).png>)
 
-26\. Pronto! Basta acessar seu app do Desko **https://\<nomedaempresa>.desko.com.br** e clicar no botão que você nomeou para login\
+26\. Pronto! Basta acessar seu app do Desko **https://\<nomedaempresa>.desko.com.br** e clicar no botão que você nomeou para login
 
-
-![](../.gitbook/assets/okta18.png)
+![](<../.gitbook/assets/okta18 (1).png>)
 
 ## **Multiplos SSO**&#x20;
+
+
 
 A partir da versão 1.78.0 do Desko, é possível configurar mais de um SSO na mesma conta, permitindo que usuários de diferentes domínios possam logar na mesma conta Desko. Para isso, vá no menu **Integrações** è **Autenticação** è na seção **Autenticação SAML SSO** e clique no botão de edição selecionando **Adicionar Nova Conexão SSO** conforme mostrado abaixo
 
