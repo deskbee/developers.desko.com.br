@@ -4,9 +4,9 @@ description: >-
   autenticação Single sign on para contas Google Suite.
 ---
 
-# Google Suite
+# Google Workspace (G-Suite)
 
-1.Acesse Admin Console [https://admin.google.com/ac/home?hl=en-US](https://admin.google.com/ac/home?hl=en-US)
+1.Acesse Admin Console [https://admin.google.com](https://admin.google.com/ac/home?hl=en-US)
 
 2\. Esta documentação foi escrita utilizando Google Admin com a linguagem Inglês, caso ache necessário e sua linguagem esteja configurada diferente no Google Admin, altere a linguagem do seu Google para o inglês, para facilitar a compreensão dos passos.
 
@@ -28,15 +28,15 @@ description: >-
 
 ![](<../.gitbook/assets/5 (1).png>)
 
-7\. Nesta etapa será exibido os dados de acesso por parte do Google, você deverá acessar o Painel Desko ([https://painel.desko.com.br](https://painel.desko.com.br)), utilizando um usuário e senha que lhe foi fornecido, pois será necessário realizar a troca de URLs e certificados entre o Provedor de Identidade (Google) e o Provedor de Serviço (Desko)
+7\. Nesta etapa será exibido os dados de acesso por parte do Google, você deverá acessar o Painel Desko [https://\<nomedaempresa>.painel.desko.com.br](https://\<nomedaempresa>.painel.desko.com.br), utilizando um usuário e senha que lhe foi fornecido, pois será necessário realizar a troca de URLs e certificados entre o Provedor de Identidade (Google) e o Provedor de Serviço (Desko)
 
 8\. Dados de Acesso do SSO do Google
 
-![](https://lh5.googleusercontent.com/PcF489Uc5W-m6OsoqEeVdtlO2S6UkqhFxbuJw4PE-SbI2O3BL9TvfbBHfwWUC8gQOTeTGA-T5MZ6xHM4Cm0i5R0M8VqQLq37pm09OsSBdwLs6yv_YWKGwAtZ2u9Jx7S3p-nl7QSY=s0)
+![](https://lh5.googleusercontent.com/PcF489Uc5W-m6OsoqEeVdtlO2S6UkqhFxbuJw4PE-SbI2O3BL9TvfbBHfwWUC8gQOTeTGA-T5MZ6xHM4Cm0i5R0M8VqQLq37pm09OsSBdwLs6yv\_YWKGwAtZ2u9Jx7S3p-nl7QSY=s0)
 
-9\. Acesse o Painel Desko ([https://painel.desko.com.br](https://painel.desko.com.br))
+9\. Acesse o Painel Desko [https://\<nomedaempresa>.painel.desko.com.br](https://\<nomedaempresa>.painel.desko.com.br)
 
-![](https://lh3.googleusercontent.com/cr4ctdoS5wjPz2tMiH5WeEOwj8c1UH5aXep9J9bPFkTIGiT_wlor24miw5ABSbFNbQ8XIzBLJ_kxRdr8b3j1vPmRqEt163elsxm5xzZoJj3v27ElG266VrMTQ8c8kp20GGJsR5Qt=s0)
+![](../.gitbook/assets/sso7.png)
 
 10\. Acesse o Menu **Integrações** / **Autenticações**.
 
@@ -47,15 +47,15 @@ O Acesso de Integrações / Autenticação é restrito aos Perfis TI e Super Usu
 11\. Habilite a **Autenticação SAML SSO**\
 ****
 
-![](https://lh3.googleusercontent.com/Zd9W0T-LSMpEv74dA3MVxkFaQeciXubIdAjJXxRV7ZnUP5kUL40-j\_4x6u-07paevMBRpaFJhNXGH5oOKmW6elZ13hfRwJyys4sA_HuTgR5NVEgLZEx6k0xPHFPrNWwywoyhn6ax=s0)
+![](../.gitbook/assets/sso1.png)
 
 \
 
 
-12\. Informe um nome para a sua conexão\
+12\. Informe um nome para a sua conexão e como deseja o texto para o botão de conexão na tela inicial\
 
 
-![](https://lh4.googleusercontent.com/CfHBnt_ssS_zlBcmoABpXRU4CsGU5\_dONxzPKyBc8lPIRZWRsy1krW4wu9Tih493v7TGzEdxr8JhduUAEXUobUvXQPX6vyQlXykvESMXRzvO0i8OP9OZTnA1PCOAZi3zj5vusw_x=s0)
+![](../.gitbook/assets/sso2.png)
 
 \
 
@@ -73,33 +73,36 @@ Campos do Google Equivalentes ao Campo no Painel Desko
 | Entity ID           | ID da Identidade (Url do Identificador) |
 | SSO URL             | URL de Login                            |
 
-14\. No Google Admin baixe o certificado, clicando no ícone de Download\
+14\. No Google Admin, faça o download do certificado clicando no botão de _download_\
 
 
 ![](<../.gitbook/assets/12 (1).png>)
 
-15\. Volte ao Painel Desko, clique em **Atualizar certificado** no campo, **Certificado de Autenticação SAML (Base64)**, e faça o upload do certificado que você baixou\
+15\. Volte ao Painel Desko, na seção **Certificado de Autenticação SAML (Base64)**, clique no botão de upload, selecione o certificado baixado e faça o upload\
 
 
-![](<../.gitbook/assets/13 (1).png>)
+![](../.gitbook/assets/sso5.png)
 
 16\. Após inserir as urls do google no Desko e fazer o upload do Certificado, Volte ao Google e clique em **CONTINUE**\
 
 
 ![](<../.gitbook/assets/14 (1).png>)
 
-17\. Volte ao Painel Desko e Copie as URL de Configuração do Desko
+17\. Volte ao Painel Desko, role a página para baixo até a seção **Dados Provedor de Acesso**, copie as URLs do painel Desko e cole no portal Google Admin conforme mostrado abaixo
 
-No Painel do Desko em Configuração Básica de SAML, copie as urls existentes no seu Painel, as mesmas deverão ser informadas no Google\
-**Esta imagem abaixo é apenas ilustrativa, verifique no PAINEL Desko as urls referentes a sua conta. Cada conta possui a sua URL específica** 
+**NOTA: a imagem abaixo é apenas ilustrativa, verifique no seu painel Desko as URLs referentes a sua conta. Cada conta possui as suas URLs específicas**&#x20;
 
-![](https://lh6.googleusercontent.com/NWRXQxYCijdlRonWMFyi8C2HLAc6RgRSAz5pzeS2gokMolwH1vZLCTQWgfV5G24eF-1HjdeeRTUnoocMJRXPnUEeztgXINHVBG3eSuKDFYKsIxq6BplbnJV2xM_Sr7j3K4X51rNO=s0)
+![](<../.gitbook/assets/sso13 (2).png>)
 
 ****
 
-18\. As urls disponíveis em **Configuração Básica de SAML** no Painel Desko devem ser adicionadas nos campos correspondentes do Google, conforme abaixo.
+18\. As URLs copiadas da seção **Dados Provedor de Acesso** no Painel Desko devem ser adicionadas nos campos correspondentes do Google Admim conforme mostrado abaixo.
 
-![](<../.gitbook/assets/16 (1).png>)
+![](../.gitbook/assets/sso15.png)
+
+**NOTA: a URL de Logout é opcional.**
+
+****
 
 Urls do Painel Desko que correspondem as urls do Google\
 
@@ -116,6 +119,8 @@ Urls do Painel Desko que correspondem as urls do Google\
 
 20\. Campo Name ID, deve estar selecionada a **Opção Basic Information > Primary email,** e clique em **CONTINUE**\
 
+
+![](../.gitbook/assets/G17tempsnip.png)
 
 21\. Clique em **ADD MAPPING** 3 vezes para inserir os 3 atributos de usuários (Claims)\
 
@@ -137,27 +142,38 @@ Urls do Painel Desko que correspondem as urls do Google\
 | Primary Email                   | http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress |
 
 \
-Para Integração com Google outros atributos/claims podem ser ignorados\
+**NOTA: Para Integração com Google outros atributos/claims podem ser ignorados**\
 
 
 24\. Clique em **FINISH**\
 
 
-25\. No Google lembre de Incluir usuários na aplicação do Google\
+25\. No Google Admin, lembre de incluir os usuários que terão permissão de acesso à nova aplicação\
 \
 
 
 ![](<../.gitbook/assets/21 (1).png>)
 
-26\. Pronto basta acessar seu app do Desko **\<nomedaempresa>.desko.com.br** e clicar no Botao que você nomeou para login\
+26\. Pronto! Basta acessar seu app do Desko **https://\<nomedaempresa>.desko.com.br** e clicar no botão que você nomeou para login\
 
 
-**27. Seja Feliz :)**
+![](../.gitbook/assets/okta18.png)
+
+## **Multiplos SSO**&#x20;
+
+A partir da versão 1.78.0 do Desko, é possível configurar mais de um SSO na mesma conta, permitindo que usuários de diferentes domínios possam logar na mesma conta Desko. Para isso, vá no menu **Integrações** è **Autenticação** è na seção **Autenticação SAML SSO** e clique no botão de edição selecionando **Adicionar Nova Conexão SSO** conforme mostrado abaixo
+
+![](../.gitbook/assets/sso14.png)
+
+Os demais passos para essa configuração são os mesmos do SSO padrão, volte ao início deste tutorial e siga as instruções normalmente.
+
+
 
 **Versionamento**
 
 | **Versão** | **Author**                     | **Data**   |
 | ---------- | ------------------------------ | ---------- |
+| v1.6       | Eduardo de Oliveira            | 15/02/2022 |
 | v1.5       | Cleber Rodrigues               | 12/07/2021 |
 | v1.4       | Cleber Rodrigues               | 19/02/2021 |
 | v1.3       | Cleber Rodrigues e Mário Verdi | 03/02/2021 |

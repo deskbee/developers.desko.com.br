@@ -114,7 +114,7 @@ URLs from Okta Admin portal that should match on _Desko_ Panel:
 
 19\.  To access your _Desko_ app, just head over to **https://\<YourCompanyName>.desko.com.br** and click on the button you named for your login method.
 
-![](../.gitbook/assets/okta18.png)
+![](<../.gitbook/assets/okta18 (1).png>)
 
 ## Versioning:
 
