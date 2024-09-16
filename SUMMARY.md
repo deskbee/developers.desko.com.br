@@ -15,35 +15,27 @@
 
 ## Recursos
 
-***
-
-* [Organization](organization/README.md)
-  * [Squads (Grupos)](organization/squads.md)
-  * [Users](organization/usuarios.md)
-* [Bookings](reservas.md)
-* [Buildings](buildings.md)
+* [Organization](recursos/organization/README.md)
+  * [Squads (Grupos)](recursos/organization/squads.md)
+  * [Users](recursos/organization/usuarios.md)
+* [Bookings](recursos/reservas.md)
+* [Buildings](recursos/buildings.md)
 
 ## Automações <a href="#automacao" id="automacao"></a>
 
-***
-
-* [Checkin / Checkout](checkin-checkout/README.md)
-  * [Configurando](checkin-checkout/configurando-automacao.md)
-  * [Enviado Evento](checkin-checkout/untitled.md)
+* [Checkin / Checkout](automacao/checkin-checkout/README.md)
+  * [Configurando](automacao/checkin-checkout/configurando-automacao.md)
+  * [Enviado Evento](automacao/checkin-checkout/untitled.md)
 
 ## WebHook
 
-***
-
-* [Configurando](webhook-iniciando.md)
+* [Configurando](webhook/webhook-iniciando.md)
 
 ## Integrações
 
-***
-
-* [SSO (SAML 2.0)](single-sign-on-sso/README.md)
-  * [Microsoft Azure AD](single-sign-on-sso/azure-ad.md)
-  * [Google Workspace (G-Suite)](single-sign-on-sso/google-suite.md)
-  * [Okta Identity Platform](single-sign-on-sso/okta-identity-platform.md)
-  * [Microsoft AD FS](single-sign-on-sso/microsoft-ad-fs.md)
-* [Slack](slack.md)
+* [SSO (SAML 2.0)](integracoes/single-sign-on-sso/README.md)
+  * [Microsoft Azure AD](integracoes/single-sign-on-sso/azure-ad.md)
+  * [Google Workspace (G-Suite)](integracoes/single-sign-on-sso/google-suite.md)
+  * [Okta Identity Platform](integracoes/single-sign-on-sso/okta-identity-platform.md)
+  * [Microsoft AD FS](integracoes/single-sign-on-sso/microsoft-ad-fs.md)
+* [Slack](integracoes/slack.md)

@@ -20,15 +20,15 @@ As datas são retornados no formato ISO8601.
 Cada resposta retorna um código HTTP apropriado conforme especificação [https://tools.ietf.org/html/rfc7231#section-6](https://tools.ietf.org/html/rfc7231#section-6)
 
 {% hint style="success" %}
-### Retornos Sucesso
+#### Retornos Sucesso
 {% endhint %}
 
-| Códigos  | Mensagem   | Descrição                                                                                            |
-| -------- | ---------- | ---------------------------------------------------------------------------------------------------- |
-| 200      | OK         | Requisição com êxito para um pedido GET, DELETE ou PATCH, PUT que se completou de forma síncrona     |
-| 201      | Created    | Requisição com êxito para um pedido POST, PUT                                                        |
-| 202      | Accepted   | Requisição aceita para um pedido POST, PUT, DELETE, ou PATCH que será processada de forma assíncrona |
-| 204      | No Content | Requisição realizada com sucesso, entretanto não existem conteúdos para retornar                     |
+| Códigos | Mensagem   | Descrição                                                                                            |
+| ------- | ---------- | ---------------------------------------------------------------------------------------------------- |
+| 200     | OK         | Requisição com êxito para um pedido GET, DELETE ou PATCH, PUT que se completou de forma síncrona     |
+| 201     | Created    | Requisição com êxito para um pedido POST, PUT                                                        |
+| 202     | Accepted   | Requisição aceita para um pedido POST, PUT, DELETE, ou PATCH que será processada de forma assíncrona |
+| 204     | No Content | Requisição realizada com sucesso, entretanto não existem conteúdos para retornar                     |
 
 {% tabs %}
 {% tab title="Example" %}
@@ -47,7 +47,7 @@ Cada resposta retorna um código HTTP apropriado conforme especificação [https
 {% endtabs %}
 
 {% hint style="danger" %}
-### Retornos Erros
+#### Retornos Erros
 {% endhint %}
 
 Na situação de retorno de algum erro, HTTP Status Code diferente de 2xx por exemplo, será gerado no corpo da resposta um erro estruturados e consistente.
